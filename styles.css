@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.content {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.shape-wrapper {
+    position: relative;
+    margin-top: 50px;
+}
+
+.shape {
+    width: 150px;
+    height: 150px;
+    background-color: #ff6b6b;
+    clip-path: path('M10,80 C40,10 65,10 95,80 S150,150 180,80');
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.text-wrap {
+    shape-outside: path('M10,80 C40,10 65,10 95,80 S150,150 180,80');
+    float: left;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    text-align: justify;
+}
+
+footer {
+    padding: 40px 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
