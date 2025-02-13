@@ -4,7 +4,12 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     font-family:"Comic Neue", serif;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    background-image: url('assets/elevationP.png');
+    background-repeat: repeat;
+    background-position: center;
+    background-size: auto;
+    background-attachment: scroll;
     color: #2e2d2d;
     line-height: 1.6;
     font-size: 17px;
